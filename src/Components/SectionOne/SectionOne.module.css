@@ -9,6 +9,7 @@
 .leftCol {
   width: 40%;
 }
+
 .leftCol h1 {
   font-family: boldFont;
   font-size: 4vw;
@@ -36,4 +37,29 @@
 }
 .rightCol img {
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .sectionOneContainer {
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: auto;
+  }
+  .leftCol {
+    width: 100%;
+    text-align: center;
+  }
+  .rightCol {
+    width: 100%;
+  }
+  .leftCol h1 {
+    font-size: 7vw !important;
+    line-height: unset;
+  }
+  .leftCol p {
+    font-size: 6vw !important;
+  }
+  .leftCol button {
+    width: 45vw;
+    font-size: 6vw;
+  }
 }

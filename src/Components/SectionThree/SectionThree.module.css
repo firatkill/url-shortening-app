@@ -12,6 +12,16 @@
   padding-bottom: 3vw;
   padding-top: 3vw;
 }
+@media screen and (max-width: 768px) {
+  .sectionThreeContainer button {
+    font-size: 6vw !important;
+    width: 50%;
+    margin-bottom: 2vw;
+  }
+  .sectionThreeContainer h2 {
+    font-size: 7vw !important;
+  }
+}
 .sectionThreeContainer h2 {
   font-family: boldFont;
   color: white;

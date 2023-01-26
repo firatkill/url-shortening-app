@@ -10,3 +10,22 @@
   background-image: url(/public/assets/bg-shorten-desktop.svg);
   background-size: cover;
 }
+@media screen and (max-width: 768px) {
+  .shortener {
+    flex-direction: column;
+  }
+  .shortener button {
+    width: 93%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 6vw;
+    height: fit-content;
+    justify-content: center !important;
+  }
+  .shortener input {
+    width: 90%;
+    margin-top: 2vw;
+    font-size: 6vw;
+    height: fit-content;
+  }
+}

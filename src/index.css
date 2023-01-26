@@ -26,3 +26,6 @@ code {
   font-family: bolderFont;
   src: url(/public/font/Poppins/Poppins-ExtraBold.ttf);
 }
+html {
+  width: 100vw;
+}

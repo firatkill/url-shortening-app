@@ -6,6 +6,34 @@
 
   margin: auto;
 }
+@media screen and (max-width: 768px) {
+  .linkedCardsContainer {
+    flex-direction: column;
+  }
+  .line {
+    display: none;
+  }
+  .card {
+    width: fit-content !important;
+    min-width: 200px;
+    height: fit-content !important;
+    margin-left: 0 !important;
+    margin-top: 5vw !important;
+    margin-right: 0 !important;
+  }
+  .cardTitle {
+    font-size: 5vw !important;
+
+    line-height: 5vw;
+  }
+  .cardText {
+    font-size: 4vw !important;
+  }
+  .cardImg {
+    width: 10vw !important;
+    top: -7vw !important;
+  }
+}
 .card {
   display: flex;
   flex-direction: column;

@@ -9,6 +9,40 @@
 .footerContainer .logo {
   width: 15vw;
 }
+@media screen and (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+
+    font-size: 5vw !important;
+  }
+  .footerContainer .logo {
+    width: 50% !important;
+    align-self: center;
+  }
+  .footerContainer .socialLinks {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    width: 100%;
+  }
+  .footerContainer .socialLinks img {
+    width: 6vw !important;
+  }
+  .listGroup {
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-start;
+    margin: auto !important;
+    width: 100%;
+  }
+  .listGroup li {
+    margin: auto;
+    font-size: 6vw;
+  }
+}
 
 .footerContainer .logo img {
   width: 100%;
