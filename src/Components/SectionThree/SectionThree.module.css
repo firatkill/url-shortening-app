@@ -1,0 +1,34 @@
+.sectionThreeContainer {
+  padding: 0;
+  margin: 0;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(257, 27%, 26%);
+  background-image: url(/public/assets/bg-boost-desktop.svg);
+  background-size: cover;
+  padding-bottom: 3vw;
+  padding-top: 3vw;
+}
+.sectionThreeContainer h2 {
+  font-family: boldFont;
+  color: white;
+  font-size: 4vw;
+  margin: 0;
+}
+.sectionThreeContainer button {
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  padding: 1vw 2vw;
+  font-size: 2vw;
+  border-radius: 10vw;
+  cursor: pointer;
+  border: none;
+  margin-top: 2vw;
+  outline: none;
+}
+.sectionThreeContainer button:hover {
+  opacity: 0.9;
+}

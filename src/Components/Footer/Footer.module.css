@@ -1,0 +1,38 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2vw;
+  background-color: hsl(260, 8%, 14%);
+  color: hsl(257, 7%, 63%);
+  padding: 2vw;
+}
+.footerContainer .logo {
+  width: 15vw;
+}
+
+.footerContainer .logo img {
+  width: 100%;
+  filter: brightness(100);
+}
+.footerContainer .socialLinks img {
+  width: 3vw;
+  margin-left: 1vw;
+  cursor: pointer;
+}
+.listGroup {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.listGroup li:first-of-type {
+  font-family: boldFont;
+  margin-bottom: 2vw;
+  color: white;
+  cursor: default !important;
+  text-decoration: none !important;
+}
+
+.listGroup li:hover {
+  text-decoration-line: underline;
+  cursor: pointer;
+}

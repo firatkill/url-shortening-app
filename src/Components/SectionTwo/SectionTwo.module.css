@@ -1,0 +1,22 @@
+.sectionTwoContainer {
+  background-color: hsl(257, 7%, 93%);
+  margin-top: 8vw;
+  padding-top: 10vw;
+  width: 100vw !important;
+  padding-bottom: 10vw;
+}
+.title {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  font-family: boldFont;
+  font-size: 3vw;
+  color: hsl(257, 27%, 26%);
+}
+.text {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-size: 2vw;
+  color: hsl(257, 7%, 63%);
+}

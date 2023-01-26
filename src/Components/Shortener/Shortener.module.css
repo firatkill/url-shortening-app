@@ -1,0 +1,95 @@
+.shortenerContainer {
+  position: absolute;
+  width: 75vw;
+  margin-top: 5vw !important;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 10;
+}
+.shortener {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: red;
+
+  padding: 2vw 2vw;
+  border-radius: 1vw;
+  background-color: hsl(257, 27%, 26%);
+  background-image: url(/public/assets/bg-shorten-desktop.svg);
+  background-size: cover;
+}
+.shortenerContainer input {
+  width: 75%;
+  border-radius: 0.8vw;
+  border: none;
+  outline: none;
+  font-size: 2vw;
+  height: 4vw;
+  font-family: boldFont;
+  padding-left: 2vw;
+}
+.shortenerContainer input::placeholder {
+  font-family: regularFont;
+}
+.shortenerContainer button {
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  padding: 1vw 2vw;
+  display: flex;
+  align-items: center;
+  font-family: boldFont;
+  font-size: 2vw;
+  height: 4vw;
+  border-radius: 0.8vw;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.shortenerContainer button:hover {
+  opacity: 0.9;
+  box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.2);
+}
+.listGroup {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  background-color: hsl(257, 7%, 93%);
+  border-radius: 1vw;
+  transition: all 0.5s ease-in-out;
+}
+.listItem {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 1vw;
+  font-size: 1.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 1vw;
+  overflow: hidden;
+}
+.listItem div {
+  display: flex;
+  align-items: center;
+}
+.listItem .link {
+  max-width: 40%;
+  overflow: hidden;
+}
+
+.listItem .shortenedLink {
+  margin-right: 2vw;
+  color: hsl(180, 66%, 49%);
+  font-family: boldFont;
+  cursor: pointer;
+}
+.listItem button:hover {
+  background-color: hsl(257, 27%, 26%);
+}
+.hide {
+  opacity: 0;
+}

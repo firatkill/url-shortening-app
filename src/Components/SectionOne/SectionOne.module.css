@@ -1,0 +1,39 @@
+.sectionOneContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5vw;
+  width: 90%;
+  margin: auto;
+}
+.leftCol {
+  width: 40%;
+}
+.leftCol h1 {
+  font-family: boldFont;
+  font-size: 4vw;
+  line-height: 4.5vw;
+}
+.leftCol p {
+  color: hsl(257, 7%, 63%);
+  font-size: 2vw;
+}
+.leftCol button {
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+  padding: 1vw 2vw;
+  font-size: 2vw;
+  border-radius: 10vw;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.leftCol button:hover {
+  opacity: 0.6;
+}
+.rightCol {
+  width: 50%;
+}
+.rightCol img {
+  width: 100%;
+}
